@@ -5,6 +5,8 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
+  -- Editing
+  { import = "astrocommunity/editing-support/vim-move" },
   -- Color scheme
   { import = "astrocommunity.colorscheme.everforest" },
   -- Git
