@@ -7,6 +7,8 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- Editing
   { import = "astrocommunity/editing-support/vim-move" },
+  { import = "astrocommunity/motion/vim-matchup" },
+  { import = "astrocommunity/motion/nvim-surround" },
   -- Color scheme
   { import = "astrocommunity.colorscheme.everforest" },
   -- Git
