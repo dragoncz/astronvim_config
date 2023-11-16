@@ -11,7 +11,7 @@ return {
     foldexpr = "nvim_treesitter#foldexpr()",
     foldlevel = 3,
     guifont = "Monaspace Neon,JetBrainsMono Nerd Font:h13",
-    linespace = 2,
+    linespace = 2, -- sets vim.opt.linespace
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
@@ -22,7 +22,7 @@ return {
     icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
-    neovide_transparency = 0.92,
+    neovide_transparency = 0.92, -- set transparency for neovide
   },
 }
 -- If you need more control, you can use the function()...end notation
