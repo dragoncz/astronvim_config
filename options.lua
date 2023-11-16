@@ -10,6 +10,8 @@ return {
     foldmethod = "expr",
     foldexpr = "nvim_treesitter#foldexpr()",
     foldlevel = 3,
+    guifont = "Monaspace Neon,JetBrainsMono Nerd Font:h13",
+    linespace = 2,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
