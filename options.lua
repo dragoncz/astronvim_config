@@ -23,6 +23,7 @@ return {
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
     neovide_transparency = 0.96, -- set transparency for neovide
+    neovide_input_macos_alt_is_meta = true, -- set alt key to be meta on MacOS
   },
 }
 -- If you need more control, you can use the function()...end notation
