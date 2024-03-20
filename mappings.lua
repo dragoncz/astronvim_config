@@ -32,6 +32,8 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- paste on MacOS
+    ["<D-v>"] = { "+p<CR>", desc = "Paste from clipboard" },
   },
   t = {
     -- setting a mapping to false will disable it
@@ -39,5 +41,7 @@ return {
   },
   i = {
     ["<C-s>"] = { "<esc>:w!<cr>", desc = "Save File" }, -- save the file when editing
+    -- paste on MacOS
+    ["<D-v>"] = { "<C-R>+", desc = "Paste from clipboard" },
   },
 }
