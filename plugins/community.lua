@@ -16,7 +16,8 @@ return {
   -- Git
   { import = "astrocommunity.git.git-blame-nvim" },
   -- Completion
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.completion.codeium-vim" },
   -- Pack
   { import = "astrocommunity.pack.typescript" },
 }
